@@ -1,0 +1,13 @@
+.mainCentered {
+    text-align: center;
+}
+
+.mainCentered > img {
+    width: 500px;
+}
+
+@media (max-width: 700px) {
+    .mainCentered > img {
+        width: 350px;
+    }
+}

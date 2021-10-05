@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import ItemsList from './components/PotItems/PotItemList/ItemsList';
 import SinglePotItem from './components/PotItems/SinglePotItem/SinglePotItem';
 import NavBar from './components/UI/Nav/NavBar';

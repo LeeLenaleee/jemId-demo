@@ -35,6 +35,16 @@ h3 {
     display: inline-block;
 }
 
+.centerText {
+    text-align: center;
+}
+
+.inputMinPotSize {
+    margin: auto;
+    width: 31%;
+    padding-top: 10px;
+}
+
 @media (max-width: 700px) {
     .potItem {
         width: 80%;

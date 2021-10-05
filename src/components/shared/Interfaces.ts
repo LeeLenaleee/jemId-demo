@@ -64,10 +64,11 @@ export interface PlantItem {
 export interface emptyProps {}
 
 export interface ItemListState {
-    allItems: [] | [PlantItem],
-    filteredItems: [] | [PlantItem],
+    allItems: [] | PlantItem[],
+    filteredItems: [] | PlantItem[],
     singlePot: null | PlantItem,
-    redirect: boolean
+    redirect: boolean,
+    minimumPotSize: number,
 }
 
 export interface LocationStateSinglePot {
