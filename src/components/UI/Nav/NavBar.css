@@ -1,0 +1,36 @@
+.container{
+    clear:both;
+    overflow:auto;
+    background-color: lime;
+}
+
+.logo {
+    width: 60px;
+    padding: 10px
+}
+
+nav{
+    float: right;
+}
+
+.logo img{
+    float: left;
+    width: 60px;
+    padding: 10px
+}
+
+nav ul li{
+    display: inline-block; 
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.linkItem {
+    text-decoration: none;
+    color: black
+}
+
+.linkItem:hover{
+    color:green;
+}

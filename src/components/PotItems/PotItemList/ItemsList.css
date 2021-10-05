@@ -1,0 +1,42 @@
+.potItem {
+    width: 30%;
+    left: 0;
+    padding: 10px;
+    box-shadow: 15px 11px 25px -2px rgba(30, 30, 60, 0.36);
+    word-break: break-word;
+    cursor: pointer;
+    margin: 25px auto auto auto;
+    border: solid black 1px;
+}
+
+.potItem:last-child {
+    margin-bottom: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.wrapper {
+    width:100%;
+    margin: auto;
+}
+
+.info {
+    vertical-align: top;
+    padding-left: 20px;
+    width: 200px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.images {
+    width: 200px;
+    display: inline-block;
+}
+
+@media (max-width: 700px) {
+    .potItem {
+        width: 80%;
+    }
+}
